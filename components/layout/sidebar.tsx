@@ -6,6 +6,7 @@ import {
     Settings2,
     SquareTerminal,
     Users,
+    Code
 } from "lucide-react"
 
 import {
@@ -92,6 +93,13 @@ const data = {
                     url: "#",
                 },
             ],
+        },
+        // Added Source Code Item Here
+        {
+            title: "Source Code",
+            url: "https://github.com/webbysrv/nextjs_admin_dashboard",
+            icon: Code,
+            items: [],
         },
     ],
 }
