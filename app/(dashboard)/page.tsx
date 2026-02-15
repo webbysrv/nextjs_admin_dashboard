@@ -36,8 +36,13 @@ export default async function DashboardPage() {
         { name: "Dec", total: 0 },
     ];
 
-    allUsers.forEach((user) => {
-        const month = user.createdAt.getMonth(); // 0 = Jan, 1 = Feb...
+    // allUsers.forEach((user) => {
+    //     const month = user.createdAt.getMonth(); // 0 = Jan, 1 = Feb...
+    //     graphData[month].total += 1;
+    // });
+
+    allUsers.forEach((user: { createdAt: Date }) => {
+        const month = user.createdAt.getMonth();
         graphData[month].total += 1;
     });
 
