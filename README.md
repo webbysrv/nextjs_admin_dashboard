@@ -31,6 +31,6 @@ Designed to demonstrate modern server-side rendering patterns, streaming UI, and
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/webbysrv/admin_dashboard.git](https://github.com/webbysrv/admin_dashboard.git)
-cd admin_dashboard
+git clone [https://github.com/webbysrv/nextjs_admin_dashboard.git](https://github.com/webbysrv/nextjs_admin_dashboard.git)
+cd nextjs_admin_dashboard
 ```     
